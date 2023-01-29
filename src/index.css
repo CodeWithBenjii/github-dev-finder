@@ -42,6 +42,13 @@ body {
   min-width: 20.4375rem;
   margin-inline: 4rem;
 }
+
+@media (min-width: 640px) {
+  .container {
+    margin-inline: 1rem;
+  }
+}
+
 .container > * + * {
   margin-top: 2rem;
 }
